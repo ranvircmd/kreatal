@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Redirecting...</title>
+<title>Redirect</title>
 <script>
-  // Redirect all routes to index.html
-  const path = window.location.pathname.replace('/kreatal', '');
+  // Redirect all routes to index.html for SPA
+  var path = window.location.pathname.replace('/kreatal', '');
   window.location.replace('/kreatal/index.html' + window.location.search + window.location.hash);
 </script>
 </head>
